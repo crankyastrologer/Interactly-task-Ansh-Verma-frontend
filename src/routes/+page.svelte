@@ -1,5 +1,7 @@
 <script lang="ts">
-	import Layout from "$lib/components/layout.svelte"
-</script><!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
+	import Layout from '$lib/components/layout.svelte';
+</script>
 
-<Layout/>
+<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
+
+<Layout />
