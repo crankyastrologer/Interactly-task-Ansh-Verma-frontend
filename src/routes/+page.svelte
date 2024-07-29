@@ -3,7 +3,7 @@
 	import { type Message, messages } from '$lib/store';
 	import {onMount} from 'svelte';
 	onMount(()=>{
-		let currentMessage = "Hello This is an LLM with context of all of my work you can ask any question here"
+		let currentMessage = "Hello This is an LLM to answer your queries ask away!"
 		let message: Message = { text: currentMessage, sender: 'server', timestamp: "date" };
 			messages.update((messages) => [...messages, message]);
 	})
